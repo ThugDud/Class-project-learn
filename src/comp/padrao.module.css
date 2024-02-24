@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+    a:visited {
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2f2e2e;
+
+}
+
+.osmose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.diveee {
+    width: 105.9%; /* A div ocupa toda a largura disponível */
+    height: 270px; /* Defina a altura desejada para a div */
+    position: relative; /* Para permitir o posicionamento absoluto da imagem */
+    overflow: hidden;
+}
+
+.abcs {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.abc {
+    width: 100%; /* A imagem ocupa toda a largura da div */
+    height: 100%; /* A imagem ocupa toda a altura da div */
+    object-fit: cover; /* Redimensiona a imagem mantendo sua proporção */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da div */
+    top: 0; /* A imagem começa no topo da div */
+    left: 0; /* A imagem começa na esquerda da div */
+    width: 600px;
+}

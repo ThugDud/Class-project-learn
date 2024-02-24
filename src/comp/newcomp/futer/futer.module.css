@@ -1,0 +1,20 @@
+.osmose {
+    background-color: #1474B9;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+}
+
+.its_a_man_if_it_talks_if_it_walks {
+    margin-top: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

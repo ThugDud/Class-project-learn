@@ -1,0 +1,54 @@
+.card {
+    margin: 100px;
+    border: solid 2px;
+    width: 200px;
+    border-radius: 0px;
+    background-color: pink;
+}
+
+.cardss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text {
+    background-color: #f0f0f0; /* Cor de fundo cinza */
+    border: 1px solid #ccc;    /* Borda cinza claro */
+    padding: 5px;              /* Espaçamento interno */
+    color: #333;               /* Cor do texto */
+    font-size: 16px;
+    margin: 20px;
+}
+
+.buton {
+    background-color: #f0f0f0; /* Cor de fundo cinza */
+    border: 1px solid #ccc;    /* Borda cinza claro */
+    padding: 10px 20px;        /* Espaçamento interno (ajuste conforme necessário) */
+    color: #333;               /* Cor do texto */
+    font-size: 16px;           /* Tamanho da fonte */
+    cursor: pointer;
+    margin: 20px;
+}
+
+.inscard {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 0px;
+}
+
+.sprite {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c938f85-f834-4bb3-b3b2-97d295769464/d4rvb1n-161d659a-0761-4512-b490-e435f688e97b.png/v1/fit/w_450,h_632,q_70,strp/newer_pk_ice_texture_by_icycatelf_d4rvb1n-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjMyIiwicGF0aCI6IlwvZlwvM2M5MzhmODUtZjgzNC00YmIzLWIzYjItOTdkMjk1NzY5NDY0XC9kNHJ2YjFuLTE2MWQ2NTlhLTA3NjEtNDUxMi1iNDkwLWU0MzVmNjg4ZTk3Yi5wbmciLCJ3aWR0aCI6Ijw9NDUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.luAThJewMupzhhNWpXZB6p4724T7nNKekPVgHXoDsPU');
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+}
+
+.fire-type {
+    background-color: red;
+}
